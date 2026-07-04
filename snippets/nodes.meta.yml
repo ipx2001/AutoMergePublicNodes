@@ -63,38 +63,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🍓84@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.129
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓85@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.130
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓83@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.178
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓77@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 45.196.182.179
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
 - name: 9|4🍓@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
@@ -119,7 +87,15 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|🍓97@oneclickvpnkeys
+- name: 9|1🪼@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.202
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 9|97@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.204
@@ -159,7 +135,7 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 9|🍓99@oneclickvpnkeys
+- name: 9|99@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 45.196.182.209
@@ -207,6 +183,30 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
+- name: 9|@filembad
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.233
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 9|100@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.234
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 9|2@oneclickvpnkeys
+  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
+  port: 8449
+  server: 45.196.182.251
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - name: 9|🪼49@oneclickvpnkeys
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
@@ -219,46 +219,6 @@ proxies:
   password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
   port: 8449
   server: 66.234.150.233
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓87@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 66.234.150.236
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓82@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 66.234.150.241
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓81@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 66.234.150.244
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓88@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 66.234.150.249
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- name: 9|🍓90@oneclickvpnkeys
-  password: 03e7f55f-22f8-4564-880f-b86c8cdbf140
-  port: 8449
-  server: 66.234.150.254
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tls: false
