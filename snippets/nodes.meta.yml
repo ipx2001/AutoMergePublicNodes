@@ -173,7 +173,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🟢30@v2ray_configs_pools
+- name: 9|30@v2ray_configs_pools
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
   password: eltgrek81o6w5cd4
