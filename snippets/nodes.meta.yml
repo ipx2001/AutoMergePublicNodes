@@ -101,6 +101,16 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: 9|🇩🇪108906 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: JxCHTtg2gX
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: 9|@V2RayyNGvpn🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -161,14 +171,14 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 9|🪯46@oneclickvpnkeys
+- name: 9|46@oneclickvpnkeys
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: argg2.auragg.org
   sni: argg2.auragg.org
   tls: false
   type: hysteria2
-- name: 9|108787 | ⚡️Telegram = t.me/SOS...
+- name: 9|🇭🇰108787 | ⚡️Telegram = t.me/S...
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: soskeynets.auragg.org
@@ -212,7 +222,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|🧸@v2ray_configs_pools
+- name: '9|@v2ray_configs_pools #1'
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
   password: eltgrek81o6w5cd4
@@ -232,7 +242,7 @@ proxies:
   sni: social.klipp.su
   tls: false
   type: hysteria2
-- name: 9|🇱108880 | ⚡️Telegram = t.me/SO...
+- name: '9|🇳🇱108880 | ⚡️Telegram = t.me/S... #1'
   obfs: salamander
   obfs-password: lhfl2z9mjngb7csh
   password: eltgrek81o6w5cd4
