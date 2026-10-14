@@ -5,29 +5,20 @@ proxies:
   server: cuddly-sheepdog.rooster465.autos
   sni: cuddly-sheepdog.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪 德国 | DEU #5'
-  network: ws
-  port: 443
-  server: 4vJWBUhtW5vKHytB.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: 4vJWBUhtW5vKHytB.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪 德国 | DEU #9'
-  network: ws
-  port: 443
-  server: kBd17k34BR3HAOJ2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: kBd17k34BR3HAOJ2.v.3dns.vip
-    path: /ws-vmess
+- alpn:
+  - http/1.1
+  name: 🇩🇪 德国 | DEU 9
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  type: trojan
+  udp: true
+- name: '🇩🇪 德国 | DEU #8'
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  type: trojan
