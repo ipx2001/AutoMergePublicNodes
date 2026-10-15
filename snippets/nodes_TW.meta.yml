@@ -21,22 +21,14 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: ec74bb6a86c2
-  port: 443
-  server: er8u54dh.df6h451rh.xin
+  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+  port: 47531
+  server: svip.skycon808.com
   skip-cert-verify: true
-  sni: px.ads.linkedin.com
+  sni: tw15.swiftrelay.cc
   type: anytls
   udp: true
 - name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  password: 0324fbc29561
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN 3
   password: 0324fbc29561
   port: 443
   server: er8u54dh.df6h451rh.xin

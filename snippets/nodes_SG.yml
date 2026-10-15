@@ -5,6 +5,17 @@ proxies:
   port: 40022
   server: ruot.ayucloudservices.nl
   type: ss
+- name: 🇸🇬[www.v2nodes.com] trojan-SG
+  network: ws
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  port: 443
+  server: 104.18.153.182
+  sni: dimskiee.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dimskiee.biz.id
+    path: /WangCai-8
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
   password: UX82473651
   port: 443
@@ -126,4 +137,31 @@ proxies:
   server: 7d0a2gz0-7a0c.aws-agent.net
   skip-cert-verify: true
   sni: m.ctrip.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '🇸🇬 新加坡 | SGP #2'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 54.254.251.49
+  type: ss
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 5
+  network: ws
+  password: '!!str 123456'
+  port: 2096
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: 321dfbc6.uir-9i6.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 321dfbc6.uir-9i6.pages.dev
+    path: /
+- name: '🇸🇬 新加坡 | SGP #5'
+  password: '!!str 123456'
+  port: 2096
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: 321dfbc6.uir-9i6.pages.dev
   type: trojan
