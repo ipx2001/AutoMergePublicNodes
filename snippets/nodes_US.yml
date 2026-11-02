@@ -1,42 +1,47 @@
 proxies:
-- name: 🇺🇸[www.v2nodes.com] trojan-US-...
+- cipher: aes-256-gcm
+  name: '🇮🇷 伊朗 | IRN #1'
+  password: 6lb9wr4ibspbl022
+  port: 443
+  server: b2friday.buzrel.ir
+  type: ss
+  udp: true
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #9'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 167.88.61.193
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 38994
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 🇺🇸US_1|1.7MB/s
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 35929
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
-  password: va3E77I9fZCnCVcGKkxBCfz5
-  port: 443
-  server: 186.241.105.213
-  skip-cert-verify: false
-  sni: vpn.liumr.top
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #12'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #3'
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 167.88.61.193
+  server: 167.88.61.198
+  sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 170.101.101.67
+  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #11'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 170.101.101.53
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #5'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 170.101.101.19
-  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
   type: trojan
 - name: '🇺🇸[www.v2nodes.com] trojan-US-... #6'
   password: 5t6i121em5lkmsmk
@@ -45,47 +50,11 @@ proxies:
   skip-cert-verify: true
   sni: us001.zestapp778.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #10'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #8'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 170.101.101.53
+  server: 170.101.101.131
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #13'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 170.101.101.67
-  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国|@ripaojiedian
-  network: ws
-  port: 443
-  server: 53vXOVarmgcreAsv.v.3dns.vip
-  servername: 53vXOVarmgcreAsv.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 53vXOVarmgcreAsv.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国2|@ripaojiedian
-  network: ws
-  port: 443
-  server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
-  servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
-    path: /ws-vmess
 - name: 美国3|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
@@ -110,37 +79,10 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸US_11|1.7MB/s
-  network: tcp
-  password: va3E77I9fZCnCVcGKkxBCfz5
-  port: 443
-  server: vpn.liumr.top
-  servername: vpn.liumr.top
-  skip-cert-verify: true
-  sni: vpn.liumr.top
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇺🇸US_9|2.1MB/s
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 26429
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  name: '🇷🇺 俄罗斯 | RUS #1'
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  port: 18443
-  server: 46.17.46.27
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇺🇸 美国 | USA #16'
-  password: 6lb9wr4ibspbl022
-  port: 443
-  server: b2friday.buzrel.ir
+  name: '🇺🇸 美国 | USA #2'
+  password: FGPMqmagVnC5yNGB
+  port: 15501
+  server: 104.36.66.73
   type: ss
   udp: true
