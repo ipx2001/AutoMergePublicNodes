@@ -29,28 +29,7 @@ proxies:
   tls: true
   type: vless
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: firefox
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  port: 443
-  server: 45.77.243.143
-  servername: sg003.zestapp778.com
-  tls: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
-  network: ws
-  port: 2096
-  server: 139.162.27.96
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
-- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #8'
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
   port: 12512
   server: 46.137.202.178
   tls: false
@@ -58,7 +37,7 @@ proxies:
   uuid: 2a6c617d-98e4-49c3-95ab-76f02fcf0150
 - client-fingerprint: chrome
   encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #9'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #5'
   network: ws
   port: 2096
   server: 190.93.244.166
@@ -90,6 +69,24 @@ proxies:
   uuid: b2853d19-fada-44dc-8d44-967d1af122e0
   ws-opts:
     path: /eyJqdW5rIjoiZTA0TGg3eENkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
+- name: 🇸🇬[www.v2nodes.com] vless-SG-8...
+  network: ws
+  port: 443
+  server: 172.67.231.28
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /fp=chromefp=unsafe
+- cipher: aes-256-gcm
+  name: 🇸🇬[www.v2nodes.com] ss-SG-1559...
+  password: qpSevKaUXYQKvSjp
+  port: 8388
+  server: 139.180.220.175
+  type: ss
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 15589

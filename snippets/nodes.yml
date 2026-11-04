@@ -96,7 +96,7 @@ proxies:
   server: 152.53.1.57
   type: ss
 - cipher: aes-256-gcm
-  name: 🏳[www.v2nodes.com] ss-
+  name: 🇦🇹[www.v2nodes.com] ss-AT-1595...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 82.110.60.9
@@ -114,13 +114,13 @@ proxies:
   server: 51.79.85.185
   type: ss
 - cipher: aes-256-gcm
-  name: 🇨🇦[www.v2nodes.com] ss-CA-1558...
+  name: 🏳[www.v2nodes.com] ss-
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 51.222.200.165
   type: ss
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #1'
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1557...
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 51.222.136.236
@@ -156,6 +156,12 @@ proxies:
   server: 51.222.12.127
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 🇪🇸[www.v2nodes.com] ss-ES-1614...
+  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
+  port: 1354
+  server: dns27.m3hrzd.ir
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 🇫🇮[www.v2nodes.com] ss-FI-1614...
   password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
   port: 1346
@@ -186,6 +192,12 @@ proxies:
   server: 94.156.250.148
   type: ss
 - cipher: aes-256-gcm
+  name: 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  password: GEdoeeqLZtkJRgSa
+  port: 8388
+  server: 139.84.166.47
+  type: ss
+- cipher: aes-256-gcm
   name: '🇮🇹 意大利 | ITA #6'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -214,7 +226,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #4'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
@@ -241,7 +253,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #3'
+  name: '🏳[www.v2nodes.com] ss- #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -254,19 +266,25 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #7'
+  name: 🇮🇹[www.v2nodes.com] ss-IT-1597...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.164.175.81
   type: ss
 - cipher: aes-256-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
+  name: '🏳[www.v2nodes.com] ss- #2'
+  password: qMvJmCbMduKUoeHq
+  port: 8388
+  server: 66.245.207.70
+  type: ss
+- cipher: aes-256-gcm
+  name: '🏳[www.v2nodes.com] ss- #3'
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #8'
+  name: '🏳[www.v2nodes.com] ss- #4'
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
@@ -288,6 +306,12 @@ proxies:
   password: KixLvKzwjekG00rm
   port: 8000
   server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: '🏳[www.v2nodes.com] ss- #5'
+  password: BWyPPTusFKhGgzKh
+  port: 8388
+  server: 64.177.90.30
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇲🇾[www.v2nodes.com] ss-MY-1525...
@@ -320,12 +344,6 @@ proxies:
   server: dns24.m3hrzd.ir
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱[www.v2nodes.com] ss-NL-1604...
-  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
-  port: 43385
-  server: sql.popmintxo.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇴[www.v2nodes.com] ss-NO-1220...
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
@@ -347,13 +365,13 @@ proxies:
   name: 🇵🇱[www.v2nodes.com] ss-PL-1273...
   password: 6heexyz
   port: 443
-  server: pl140.vpnbook.com
+  server: 54.36.174.140
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '🏳[www.v2nodes.com] ss- #9'
+  name: '🇵🇱[www.v2nodes.com] ss-PL-1273... #1'
   password: 6heexyz
   port: 443
-  server: 54.36.174.134
+  server: pl134.vpnbook.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇴[www.v2nodes.com] ss-RO-1595...
@@ -362,7 +380,7 @@ proxies:
   server: 194.68.44.42
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '🏳[www.v2nodes.com] ss- #10'
+  name: '🏳[www.v2nodes.com] ss- #6'
   password: QFWzCw2uX9B9i6qAYeFBIE
   port: 443
   server: 154.46.31.106
@@ -386,6 +404,12 @@ proxies:
   server: 70.34.212.124
   type: ss
 - cipher: aes-256-gcm
+  name: 🇸🇬[www.v2nodes.com] ss-SG-1559...
+  password: qpSevKaUXYQKvSjp
+  port: 8388
+  server: 139.180.220.175
+  type: ss
+- cipher: aes-256-gcm
   name: 🇺🇸[www.v2nodes.com] ss-US-1614...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -396,6 +420,12 @@ proxies:
   password: LCvps-199-168-136-193-bak8443
   port: 443
   server: 49.51.39.148
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1612...
+  password: DZRy4Q3QH0jUGfKFl2jDCZ
+  port: 28960
+  server: 138.197.89.234
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇿🇦[www.v2nodes.com] ss-ZA-1534...
@@ -475,18 +505,13 @@ proxies:
   port: 443
   server: 64.176.7.205
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.29
   sni: blog.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.78
@@ -510,12 +535,6 @@ proxies:
   port: 443
   server: 64.176.163.182
   sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
-  type: trojan
-- name: 🇯🇵[www.v2nodes.com] trojan-JP-...
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
-  sni: 45.32.52.173
   type: trojan
 - name: 🇲🇾[www.v2nodes.com] trojan-MY-...
   password: 5931134d1cde66bf83a54acdfebe7ab2
