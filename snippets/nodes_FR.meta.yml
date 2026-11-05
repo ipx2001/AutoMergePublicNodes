@@ -1,5 +1,8 @@
 proxies:
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   name: 🇫🇷[www.v2nodes.com] vless-FR-1...
   network: tcp
   port: 2053
@@ -8,12 +11,10 @@ proxies:
   tls: true
   type: vless
   uuid: fbda2834-b1e7-4148-afb9-deda31036a30
-- encryption: none
-  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
   network: ws
   port: 14430
   server: 138.124.70.41
-  servername: 138.124.70.41
   tls: false
   type: vless
   uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
@@ -40,16 +41,8 @@ proxies:
   tls: false
   type: vless
   uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
-- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #8'
-  port: 80
-  server: 152.228.162.19
-  tls: false
-  type: vless
-  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
-  ws-opts:
-    path: /vless/
 - client-fingerprint: chrome
-  name: '🏳[www.v2nodes.com] vless- #20'
+  name: '🏳[www.v2nodes.com] vless- #32'
   network: ws
   port: 443
   server: cf.130519.xyz
@@ -89,52 +82,25 @@ proxies:
     headers:
       Host: ccc.010304.xyz
     path: /fp=unsafe
-- client-fingerprint: unsafe
-  encryption: none
+- client-fingerprint: firefox
   name: '🇫🇷[www.v2nodes.com] vless-FR-2... #1'
   network: ws
   port: 443
-  server: 104.20.45.141
-  servername: razk50e1uvss.amirhoseyn-meshki.workers.dev
+  server: 178.104.70.11
+  servername: parsa-panel-dy55x.railway1385-2a46.workers.dev
   tls: true
   type: vless
-  uuid: 50414e45-4c5f-5a45-5553-7e7818beb9aa
+  uuid: 64726966-0000-4000-8000-740000000000
   ws-opts:
     headers:
-      Host: razk50e1uvss.amirhoseyn-meshki.workers.dev
-    path: /stream/PANEL_ZEUS/7e7818beb9aa
-- cipher: aes-256-gcm
-  name: 🇫🇷[www.v2nodes.com] ss-FR-1609...
-  password: lF3nRjH58koKTe-_VtABbg
-  port: 20222
-  server: 51.75.118.5
-  type: ss
-- name: 🇫🇷FR_2|2.3MB/s
-  port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: '🇫🇷 法国 | FRA #1'
-  network: ws
-  port: 443
-  server: 199.232.78.160
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
+      Host: parsa-panel-dy55x.railway1385-2a46.workers.dev
     path: /
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55
-  name: 🇫🇷 法国 | FRA 3
+  name: 🇫🇷 法国 | FRA 2
   port: 36699
   protocol: none
   server: 163.172.117.163

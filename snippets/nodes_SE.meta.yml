@@ -1,4 +1,11 @@
 proxies:
+- name: 🥌11@oneclickvpnkeys
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  port: 443
+  server: 185.153.55.28
+  sni: se.mimowhat.online
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇸🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -9,7 +16,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
+- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #1'
   network: ws
   port: 14430
   server: 5.178.109.174
@@ -20,34 +27,39 @@ proxies:
     headers:
       Host: 5.178.109.174
     path: /vless
-- cipher: aes-256-gcm
-  name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  password: AxIYWtskJWIIaefW
-  port: 8388
-  server: 70.34.212.124
-  type: ss
 - name: 🇸🇪[www.v2nodes.com] trojan-SE-...
   password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
   port: 443
   server: connect-se.mimowhat.online
   sni: connect-se.mimowhat.online
   type: trojan
-- name: 🇸🇪SE_1|1.2MB/s
-  password: None
+- name: 🇸🇪SE_1|1.3MB/s
   port: 443
-  server: 146.70.242.146
+  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http
-- name: '🇸🇪 瑞典 | SWE #1'
-  network: tcp
-  port: 5059
-  server: bot.vudfaro.ir
-  tls: false
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 138-124-86-230-sslip-io
+  name: 🇸🇪 瑞典 | SWE
+  network: grpc
+  port: 48115
+  server: 138.124.86.230
+  servername: 138-124-86-230.sslip.io
+  tls: true
   type: vless
   udp: true
-  uuid: 7df4f23f-b361-412a-883a-54dfdb5b8c8f
-  ws-opts:
-    headers:
-      Host: bot.vudfaro.ir
-    path: /
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇸🇪 瑞典 | SWE #1'
+  network: grpc
+  port: 48115
+  server: 138.124.86.230
+  servername: 138-124-86-230.sslip.io
+  tls: true
+  type: vless
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b

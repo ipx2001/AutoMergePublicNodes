@@ -7,94 +7,30 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🧿94@oneclickvpnkeys
-  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-  port: 443
-  server: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 🇺🇸206889 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: sbxbz19890604
-  password: 41d4f8b3-2a45-4531-a33b-938e2eebb939
-  port: 443
-  server: oh.sbbz.tech
-  sni: oh.sbbz.tech
-  tls: false
-  type: hysteria2
-- name: 🧿95@oneclickvpnkeys
-  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-  port: 443
-  server: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 🧿96@oneclickvpnkeys
-  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  port: 443
-  server: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
-  sni: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 🧿97@oneclickvpnkeys
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 🧿98@oneclickvpnkeys
-  password: 8fa4bea0-8703-11ef-83cc-f23c913c8d2b
-  port: 443
-  server: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 🇺🇸206884 | ⚡️Telegram = t.me/L...
-  password: 948b48e5-a202-4770-8552-f35a12dac378
-  port: 18687
-  server: 172.245.6.155
+- name: 🇺🇸207175 | ⚡️Telegram = t.me/L...
+  password: T9mkgeXbx77OrcXCOlaHAwcS
+  port: 8443
+  server: 23.95.115.116
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 🧿92@oneclickvpnkeys
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  port: 4444
-  server: 179.253.82.47
-  sni: fl3.nexfile.net
-  tls: false
-  type: hysteria2
-- name: 🧿99@oneclickvpnkeys
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  port: 443
-  server: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 6b9f9b99-tmm5c0-tsdg75-tlhh.los.hyhuawei.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
-  name: 🇺🇸[www.v2nodes.com] vless-US-1...
+  name: '🇺🇸 美国 | USA #6'
   network: ws
   port: 443
   server: 146.75.59.186
   servername: community.fastly.steamstatic.com
   tls: true
   type: vless
+  udp: true
   uuid: 72881b3f-76f7-4cae-912d-e95e602a5ca4
   ws-opts:
     headers:
       Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
     path: /
 - client-fingerprint: chrome
-  name: '🏳[www.v2nodes.com] vless- #27'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #2'
   network: ws
   port: 443
   server: 146.75.59.186
@@ -107,7 +43,7 @@ proxies:
       Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
     path: /
 - client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #3'
   network: ws
   port: 443
   server: 146.75.59.186
@@ -171,11 +107,16 @@ proxies:
   port: 28960
   server: 138.197.89.234
   type: ss
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
+- name: 🇺🇸[www.v2nodes.com] trojan-US-...
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 167.88.61.52
   sni: courses.browseseniorrolesandenhanceyourcareertoday.com
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #3'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 167.88.61.193
   type: trojan
 - name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
@@ -184,123 +125,35 @@ proxies:
   skip-cert-verify: true
   sni: api.browseseniorrolesandenhanceyourcareertoday.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #3'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- client-fingerprint: chrome
+  name: '🇷🇺 俄罗斯 | RUS #3'
+  network: ws
   port: 443
-  server: 167.88.61.193
-  type: trojan
-- name: 🇺🇸US_1|1.3MB/s
-  password: None
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_2|2.4MB/s
-  password: None
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_3|1.5MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_4|1.2MB/s
-  port: 18080
-  server: 155.138.236.211
-  skip-cert-verify: true
-  type: http
-- cipher: aes-256-gcm
-  name: '🇷🇺 俄罗斯 | RUS #1'
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  port: 18443
-  server: 46.17.46.27
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  name: '🇺🇸 美国 | USA #2'
-  network: xhttp
-  port: 443
-  server: 23.237.202.253
-  servername: id-53de05e9.vmagnum.win
+  server: xsru2.freeddns.org
+  servername: xsru2.freeddns.org
   tls: true
   type: vless
   udp: true
-  uuid: 53de05e9-8de3-48ae-9036-dcb203d4925c
-  xhttp-opts:
-    path: /
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  ws-opts:
+    headers:
+      Host: xsru2.freeddns.org
+    path: /wsru
 - alpn:
   - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  auth_str: github.com/Alvin9999-newpac/fanqiang
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
   down: 55
-  name: 🇺🇸 美国 | USA 3
-  port: 22335
+  name: 🇺🇸 美国 | USA 2
+  port: 443
   protocol: none
-  server: 198.200.57.142
+  server: 137.175.82.44
   skip-cert-verify: true
   sni: bing.com
   type: hysteria
   up: 11
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #3'
-  network: ws
-  port: 443
-  server: 146.75.57.111
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72881b3f-76f7-4cae-912d-e95e602a5ca4
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-    path: /
-- name: 🇺🇸 美国 | USA 5
-  network: ws
-  password: dea22174-850a-48f9-8974-976d46adc215
-  port: 443
-  server: 179.255.103.84
-  skip-cert-verify: true
-  sni: 666.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 666.85s.me
-    path: /
-- name: 🇺🇸 美国 | USA 6
-  network: ws
-  password: dea22174-850a-48f9-8974-976d46adc215
-  port: 443
-  server: 179.253.235.33
-  skip-cert-verify: true
-  sni: 666.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 666.85s.me
-    path: /
-- alpn:
-  - h3
-  auth: FfK3b7KRMrjXUurtvPxEPE56
-  down: 200
-  name: 🇺🇸 美国 | USA 7
-  password: FfK3b7KRMrjXUurtvPxEPE56
-  port: 30000
-  server: 54.255.225.117
-  skip-cert-verify: true
-  sni: sg-transit-1.nebulacloud.win
-  type: hysteria2
-  udp: true
-  up: 100
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #7'
+  name: '🇺🇸 美国 | USA #2'
   network: ws
   port: 443
   server: 199.232.78.160
@@ -313,64 +166,107 @@ proxies:
     headers:
       Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
     path: /?Telegram---EVAY_VPN---EVAY_VPN---EVAY_VPN---EVAY_VPN
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #8'
-  network: xhttp
-  port: 443
-  server: cf-cname.xingpingcn.top
-  servername: f0c5bfd6s394.fuhuovps.xyz
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸 美国 | USA #4'
+  password: 9AUVPZfOeSHmVCMyLvIvrl1wVLvZf7Jv
+  port: 1080
+  server: 207.246.112.227
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #5'
+  network: ws
+  port: 2096
+  server: saas.sin.fan
+  servername: vp13.1145678.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  xhttp-opts:
-    host: f0c5bfd6s394.fuhuovps.xyz
-    path: f00757d3fec0e7aca102e554fb32f21e
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
     headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #9'
-  network: http
-  port: 1288
-  server: 107.175.76.215
+      Host: vp13.1145678.xyz
+    path: /index/content
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 20
+  name: 🇺🇸 美国 | USA 7
+  port: 443
+  protocol: none
+  server: 137.175.82.43
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: bing.com
+  type: hysteria
+  up: 20
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #7'
+  network: ws
+  port: 443
+  server: www.qarvian.ir
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
   udp: true
-  uuid: 29a72eac-a4d1-4526-8fa0-d3ecc4e38b44
-- name: '🇺🇸 美国 | USA #4'
-  password: dea22174-850a-48f9-8974-976d46adc215
+  uuid: 72881b3f-76f7-4cae-912d-e95e602a5ca4
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+    path: /?TELEGRAM--FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE-FaraGATE--TELEGRAM
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #8'
+  network: ws
   port: 443
-  server: 179.255.103.84
-  skip-cert-verify: true
-  sni: 666.85s.me
-  type: trojan
-- name: '🇺🇸 美国 | USA #5'
-  password: dea22174-850a-48f9-8974-976d46adc215
+  server: help1.digikala-aparat-zula.com
+  servername: wallweb8.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20e565e1-3858-40bf-94e8-4ec9624fc985
+  ws-opts:
+    headers:
+      Host: wallweb8.pages.dev
+    path: /
+- client-fingerprint: random
+  name: '🇺🇸 美国 | USA #9'
+  network: ws
   port: 443
-  server: 179.253.235.33
-  skip-cert-verify: true
-  sni: 666.85s.me
-  type: trojan
-- name: '🇺🇸 美国 | USA #6'
-  password: FfK3b7KRMrjXUurtvPxEPE56
-  port: 30000
-  server: 54.255.225.117
-  skip-cert-verify: true
-  sni: sg-transit-1.nebulacloud.win
-  tls: false
-  type: hysteria2
+  server: jp-osa.862400.xyz
+  servername: jp-osa.862400.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea81763f-e534-4700-aa28-9ac98156771b
+  ws-opts:
+    headers:
+      Host: jp-osa.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #10'
+  network: ws
+  port: 443
+  server: 199.232.78.120
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ed1a622-a3d4-47e5-b135-11e2dc909bff
+  ws-opts:
+    headers:
+      Host: ussman.global.ssl.fastly.net.
+    path: /
+- client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇷🇺 俄罗斯 | RUS #1'
+  network: grpc
+  port: 443
+  server: xsru1.ddnsfree.com
+  servername: xsru1.ddnsfree.com
+  tls: true
+  type: vless
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

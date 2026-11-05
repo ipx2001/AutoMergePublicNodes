@@ -10,54 +10,24 @@ proxies:
     path: /
 - cipher: aes-256-gcm
   name: 🇰🇷[www.v2nodes.com] ss-KR-1185...
-  password: Y6R9pAtvxxzmGC
-  port: 9090
+  password: KixLvKzwjekG00rm
+  port: 8000
   server: 141.164.45.187
   type: ss
-- name: 🇰🇷 韩国 | KOR
-  network: ws
-  password: dea22174-850a-48f9-8974-976d46adc215
-  port: 8443
-  server: 123.111.169.70
-  skip-cert-verify: true
-  sni: 666.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 666.85s.me
-    path: /
-- name: 🇰🇷 韩国 | KOR 3
-  network: ws
-  password: dea22174-850a-48f9-8974-976d46adc215
-  port: 443
-  server: 131.186.16.166
-  skip-cert-verify: true
-  sni: 666.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 666.85s.me
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: '🇰🇷 韩国 | KOR #4'
+  name: '🇰🇷 韩国 | KOR #1'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 8443
-  server: 3.39.252.64
+  server: 54.180.236.157
   type: ss
   udp: true
-- name: '🇰🇷 韩国 | KOR #1'
-  password: dea22174-850a-48f9-8974-976d46adc215
-  port: 8443
-  server: 123.111.169.70
-  skip-cert-verify: true
-  sni: 666.85s.me
-  type: trojan
-- name: '🇰🇷 韩国 | KOR #3'
-  password: dea22174-850a-48f9-8974-976d46adc215
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  fingerprint: 89:61:86:FE:B2:0C:B7:40:31:87:A4:5F:F3:BD:5D:DC:8B:FB:DD:41:9D:77:9D:55:D7:86:18:9D:36:73:1A:69
+  name: '🇰🇷 韩国 | KOR #2'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 131.186.16.166
+  server: 54.180.236.157
   skip-cert-verify: true
-  sni: 666.85s.me
-  type: trojan
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
