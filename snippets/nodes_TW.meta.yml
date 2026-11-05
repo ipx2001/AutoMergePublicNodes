@@ -1,12 +1,19 @@
 proxies:
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: 0324fbc29561
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  name: 🇹🇼[www.v2nodes.com] vless-TW-1...
+  network: ws
   port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
+  server: 188.114.98.0
+  servername: n04.jinggai.online
+  tls: true
+  type: vless
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  ws-opts:
+    headers:
+      Host: n04.jinggai.online
+    path: /nvl-n04-ws/e0577fe8fd7c8823
 - client-fingerprint: chrome
   name: '🇹🇼 🇨🇳 台湾 | TWN #1'
   network: ws
@@ -21,3 +28,11 @@ proxies:
     headers:
       Host: ty986gfazs.cainiaohub.xyz
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true

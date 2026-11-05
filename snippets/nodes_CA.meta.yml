@@ -83,9 +83,16 @@ proxies:
   port: 443
   server: 216.152.147.74
   type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #6'
-  password: 5t6i121em5lkmsmk
-  port: 46977
-  server: ca001.zestapp778.com
-  sni: ca001.zestapp778.com
-  type: trojan
+- name: 🇨🇦CA_1|2.8MB/s
+  port: 9443
+  server: 198.44.157.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇨🇦CA_2|2.7MB/s
+  password: None
+  port: 443
+  server: 206.223.183.16
+  skip-cert-verify: true
+  tls: true
+  type: http

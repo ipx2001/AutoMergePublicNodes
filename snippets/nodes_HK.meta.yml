@@ -44,6 +44,13 @@ proxies:
     headers:
       Host: px2.5ibtc.cn
     path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+- name: 🇭🇰HK_1|5.1MB/s
+  password: None
+  port: 31343
+  server: 120.232.204.58
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港 | HKG #1'

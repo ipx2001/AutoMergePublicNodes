@@ -4,3 +4,11 @@ proxies:
   port: 443
   server: 208.69.78.19
   type: trojan
+- name: 🇨🇭CH_1|2.6MB/s|R002-260618
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
