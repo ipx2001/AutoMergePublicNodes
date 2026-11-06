@@ -11,10 +11,9 @@ proxies:
   tls: false
   type: vless
   uuid: 3d526c7f-059c-4e2b-b09a-8569b268935b
-- name: 🇪🇪EE_1|2.9MB/s
-  password: None
-  port: 9443
-  server: 95.153.31.66
+- name: 🇪🇪EE_1|1.3MB/s
+  port: 443
+  server: 95.153.32.2
   skip-cert-verify: true
   tls: true
   type: http
