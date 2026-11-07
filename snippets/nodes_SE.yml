@@ -11,9 +11,3 @@ proxies:
   server: 70.34.207.14
   sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
   type: trojan
-- name: '🇸🇪[www.v2nodes.com] trojan-SE-... #1'
-  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
-  port: 443
-  server: connect-se.mimowhat.online
-  sni: connect-se.mimowhat.online
-  type: trojan

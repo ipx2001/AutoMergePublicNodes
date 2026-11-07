@@ -38,10 +38,12 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
+- encryption: none
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
   network: tcp
   port: 47878
   server: 152.69.195.67
+  servername: 152.69.195.67
   tls: false
   type: vless
   uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
@@ -73,45 +75,11 @@ proxies:
     headers:
       Host: web-app-ji3j1z.app-wuuhuw.workers.dev
     path: /api/ws
-- encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  network: ws
-  port: 11424
-  server: 38.47.96.220
-  servername: notls.lukongtou.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
-  ws-opts:
-    headers:
-      Host: notls.lukongtou.eu.org
-    path: Telegram-WangCai2🇨🇳
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #11'
-  network: ws
-  port: 2096
-  server: courses.mftplus.qzz.io
-  servername: courses.mftplus.qzz.io
-  tls: true
-  type: vless
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
-  ws-opts:
-    headers:
-      Host: courses.mftplus.qzz.io
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
   type: ss
 - cipher: aes-128-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-5141...
@@ -131,57 +99,3 @@ proxies:
   port: 443
   server: 149.22.87.241
   type: ss
-- alpn:
-  - h3
-  auth: d8cf80f7-e24b-4961-91f6-77d494bcbdab
-  down: 200
-  name: 🇯🇵 日本 | JPN
-  password: d8cf80f7-e24b-4961-91f6-77d494bcbdab
-  port: 443
-  server: 154.85.19.50
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
-  down: 1000
-  name: 🇯🇵 日本 | JPN 2
-  obfs: salamander
-  obfs-password: fmW0oAsJz1qFJ0Ez
-  password: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
-  port: 20601
-  server: x-rb5.xueshan168.cc
-  skip-cert-verify: true
-  sni: x-rb5.xueshan168.cc
-  type: hysteria2
-  up: 1000
-- auth: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
-  down: 1000
-  name: '🇯🇵 日本 | JPN #3'
-  password: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
-  port: 20601
-  server: x-rb2.xueshan168.cc
-  skip-cert-verify: true
-  sni: x-rb2.xueshan168.cc
-  tls: false
-  type: hysteria2
-  up: 1000
-- name: '🇯🇵 日本 | JPN #1'
-  password: d8cf80f7-e24b-4961-91f6-77d494bcbdab
-  port: 443
-  server: 154.85.19.50
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '🇯🇵 日本 | JPN #2'
-  obfs: salamander
-  obfs-password: salamander
-  password: 9b7dc1a8-1977-4174-a82d-39ce4081b8eb
-  port: 20601
-  server: x-rb5.xueshan168.cc
-  skip-cert-verify: true
-  sni: x-rb5.xueshan168.cc
-  tls: false
-  type: hysteria2
