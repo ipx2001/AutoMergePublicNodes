@@ -32,9 +32,7 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
-  network: tcp
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
   port: 47878
   server: 152.69.195.67
   servername: 152.69.195.67
@@ -126,12 +124,6 @@ proxies:
   port: 443
   server: 149.22.87.240
   type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-9223...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
-  type: ss
 - name: 🇯🇵[www.v2nodes.com] trojan-JP-...
   password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
   port: 8443
@@ -140,9 +132,12 @@ proxies:
   sni: 160.21.74.183
   type: trojan
 - name: '🇯🇵[www.v2nodes.com] trojan-JP-... #1'
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 167.179.108.225
+  skip-cert-verify: false
+  sni: discoverparttimepositionsandsupplementyourincomeguide.com
   type: trojan
 - client-fingerprint: chrome
   name: '🇯🇵 日本 | JPN #3'

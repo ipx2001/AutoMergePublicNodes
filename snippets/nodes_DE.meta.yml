@@ -1,4 +1,13 @@
 proxies:
+- name: 🇩🇪210420 | ⚡️Telegram = t.me/L...
+  obfs: salamander
+  obfs-password: 7922smqtd5qm70fu
+  password: 5ictxgawam84vgrp
+  port: 2098
+  server: arsalanvpn.trapxan.ir
+  sni: arsalanvpn.trapxan.ir
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -71,18 +80,6 @@ proxies:
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 193.108.119.96
-  sni: learn.iloverussia2026.com
-  type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.29
-  sni: blog.iloverussia2026.com
-  type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
   server: 193.108.119.78
   type: trojan
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #5'
@@ -90,6 +87,12 @@ proxies:
   port: 443
   server: 193.108.119.193
   sni: resources.iloverussia2026.com
+  type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.29
+  sni: blog.iloverussia2026.com
   type: trojan
 - alpn:
   - h3

@@ -1,5 +1,5 @@
 proxies:
-- name: 🇭🇰210323 | ⚡️Telegram = t.me/L...
+- name: 'Channel id: @ConfigV2RayNG 🇭🇰'
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -15,8 +15,7 @@ proxies:
   tls: false
   type: vless
   uuid: 7852e4df-db54-4f75-a35e-3b8fbe89e56d
-- client-fingerprint: firefox
-  encryption: none
+- encryption: none
   name: '🇭🇰[www.v2nodes.com] vless-HK-1... #1'
   network: tcp
   port: 31884
