@@ -1,6 +1,15 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   name: 🇸🇬[www.v2nodes.com] vless-SG-1...
+  network: tcp
+  port: 56984
+  server: sg1.zestapp778.com
+  servername: sg1.zestapp778.com
+  tls: true
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: firefox
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   port: 443
   server: 45.76.155.179
   servername: sg003.zestapp778.com
@@ -8,13 +17,11 @@ proxies:
   type: vless
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - client-fingerprint: chrome
-  encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #5'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #6'
   network: ws
   port: 2096
   server: 139.162.27.96
   servername: free-server.techsonic.dev
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
@@ -24,12 +31,6 @@ proxies:
     path: /free-server.techsonic.dev
 - cipher: aes-256-gcm
   name: 🇸🇬[www.v2nodes.com] ss-SG-1616...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 51.79.228.131
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇸🇬[www.v2nodes.com] ss-SG-1616... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 15.235.182.183
@@ -64,7 +65,6 @@ proxies:
   server: 15.235.184.127
   type: trojan
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 149.28.130.108
@@ -76,20 +76,54 @@ proxies:
   port: 8886
   server: 139.180.146.200
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '🇸🇬 新加坡 | SGP #2'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 13.212.45.153
-  type: ss
-  udp: true
 - auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
   fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
-  name: '🇸🇬 新加坡 | SGP #5'
+  name: '🇸🇬 新加坡 | SGP #1'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 13.212.45.153
+  server: 56.10.145.239
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: '🇸🇬 新加坡 | SGP #3'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 56.10.145.239
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #5'
+  network: ws
+  port: 8443
+  server: sg01.cf.sh-cloudflare.sbs
+  servername: sg01.cdn00.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8d9c86f-cddb-4fa5-96f7-f68eb48b3cb3
+  ws-opts:
+    headers:
+      Host: sg01.cdn00.top
+    path: /shanhai/sg01
+- name: 🇸🇬 新加坡 | SGP 6
+  network: ws
+  password: '!!str 123456'
+  port: 2096
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: 321dfbc6.uir-9i6.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 321dfbc6.uir-9i6.pages.dev
+    path: /
+- name: '🇸🇬 新加坡 | SGP #6'
+  password: '!!str 123456'
+  port: 2096
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: 321dfbc6.uir-9i6.pages.dev
+  type: trojan

@@ -3,38 +3,15 @@ proxies:
   network: ws
   port: 25555
   server: 152.69.226.63
+  servername: 152.69.226.63
   tls: false
   type: vless
   uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   ws-opts:
     path: /
-- name: 🇰🇷[www.v2nodes.com] trojan-KR-...
-  password: 5t6i121em5lkmsmk
-  port: 48851
-  server: kr002.zestapp778.com
-  skip-cert-verify: true
-  sni: kr002.zestapp778.com
-  type: trojan
-- name: 🇰🇷KR_1|1.5MB/s
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  username: T2clM0QlM0Q6
-- name: 🇰🇷KR_2|1.4MB/s
-  password: VDJjbE0wUWxNMFE2Og
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  udp: true
-  username: VDJjbE0wUWxNMFE2Og
-- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  fingerprint: 89:61:86:FE:B2:0C:B7:40:31:87:A4:5F:F3:BD:5D:DC:8B:FB:DD:41:9D:77:9D:55:D7:86:18:9D:36:73:1A:69
-  name: '🇰🇷 韩国 | KOR #1'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 15.165.15.173
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
+- cipher: aes-256-gcm
+  name: 🇰🇷[www.v2nodes.com] ss-KR-1185...
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 141.164.45.187
+  type: ss
