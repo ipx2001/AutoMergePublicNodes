@@ -1,12 +1,9 @@
 proxies:
-- name: Telegram 🆔@cnetvpn 🇸🇪
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vz86jgszv4zszchv
-  port: 52062
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
+- name: 💫42@oneclickvpnkeys
+  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
+  port: 20444
+  server: 88.216.60.117
+  sni: hy60c117-2.w-mebel.pro
   tls: false
   type: hysteria2
 - alpn:
@@ -14,7 +11,6 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   name: '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
-  network: tcp
   port: 443
   server: 194.104.94.141
   servername: se3.shtil.io
@@ -35,18 +31,6 @@ proxies:
 - name: '🇸🇪[www.v2nodes.com] vless-SE-1... #5'
   network: ws
   port: 14430
-  server: 5.178.109.174
-  servername: 5.178.109.174
-  tls: false
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  ws-opts:
-    headers:
-      Host: 5.178.109.174
-    path: /vless
-- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #6'
-  network: ws
-  port: 14430
   server: 193.188.21.253
   servername: 193.188.21.253
   tls: false
@@ -63,6 +47,7 @@ proxies:
   server: 138.199.55.243
   type: ss
 - name: 🇸🇪[www.v2nodes.com] trojan-SE-...
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 70.34.207.14
