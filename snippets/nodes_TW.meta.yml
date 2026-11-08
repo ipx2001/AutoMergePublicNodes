@@ -32,8 +32,18 @@ proxies:
   sni: baidu.com
   type: anytls
   udp: true
+- auth: 33cea807-127a-412b-8947-f69f0387706b
+  name: '🇹🇼 🇨🇳 台湾 | TWN #2'
+  password: 33cea807-127a-412b-8947-f69f0387706b
+  port: 13212
+  server: tw.5yunapi.buzz
+  skip-cert-verify: true
+  sni: tw.5yunapi.buzz
+  tls: false
+  type: hysteria2
+  udp: true
 - client-fingerprint: chrome
-  name: '🇹🇼 🇨🇳 台湾 | TWN #1'
+  name: '🇹🇼 🇨🇳 台湾 | TWN #3'
   network: ws
   port: 443
   server: 59.125.69.22

@@ -34,7 +34,7 @@ proxies:
   port: 443
   server: 167.179.108.225
   type: trojan
-- name: '🇯🇵 日本 | JPN #2'
+- name: '🇯🇵 日本 | JPN #1'
   password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
   port: 8443
   server: 160.21.74.183
