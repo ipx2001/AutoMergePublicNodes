@@ -23,7 +23,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #8'
+  name: '🇺🇸 美国 | USA #15'
   network: ws
   port: 443
   server: 199.232.78.160
@@ -37,27 +37,64 @@ proxies:
       Host: copy_az_channel_NUFiLTER_ss.global.ssl.fastly.net.
     path: /
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #3'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #5'
   network: ws
   port: 443
   server: 146.75.57.7
   servername: cdn.akamai.steamstatic.com
   tls: true
   type: vless
-  udp: true
   uuid: 8fdeb819-df0c-456d-9a1d-e3a9950ece4d
   ws-opts:
     headers:
       Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
     path: /
-- cipher: aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1618...
-  password: dongtaiwang.com
-  port: 35678
-  server: 137.175.73.178
-  type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇺🇸 US1@ripaojiedian
+  network: ws
+  port: 443
+  server: 156.225.64.8
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇺🇸 US2@ripaojiedian
+  network: ws
+  port: 443
+  server: 154.17.9.239
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- name: '🇦🇺 澳大利亚 | AUS #1'
+  password: Trojan@82164024
+  port: 443
+  server: 45.32.241.180
+  skip-cert-verify: true
+  sni: au.tronsg.com
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: '🇷🇺 俄罗斯 | RUS #3'
+  name: '🇷🇺 俄罗斯 | RUS #1'
   network: ws
   port: 443
   server: xsru2.freeddns.org
@@ -71,33 +108,82 @@ proxies:
       Host: xsru2.freeddns.org
     path: /wsru
 - alpn:
-  - h3
-  auth-str: github.com/Alvin9999-newpac/fanqiang
-  auth_str: github.com/Alvin9999-newpac/fanqiang
-  down: 55
-  name: 🇺🇸 美国 | USA
-  port: 22335
-  protocol: none
-  server: 198.200.57.142
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '🇺🇸 美国 | USA #1'
+  network: http
+  port: 52080
+  server: 23.94.83.37
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 11
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #5'
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 355c1760-9bde-4b77-916b-5191e7f704a3
+- name: 🇺🇸 美国 | USA 2
   network: ws
+  password: 883e3cc8-9613-4f2d-8c42-0dd3d429db55
   port: 443
-  server: 185.242.113.75
+  server: 104.17.10.171
+  skip-cert-verify: true
+  sni: ltf8.jueson.de5.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ltf8.jueson.de5.net
+    path: /categories/community/
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #6'
+  network: ws
+  port: 2053
+  server: 172.67.65.56
+  servername: whitecreeper.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 18615aac-72e2-451b-b7c8-b492e63cf65a
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
   ws-opts:
     headers:
-      Host: jyfrj1cims.dev.onappjet.com
-    path: /jx-8c3iiq92bemzqp
+      Host: whitecreeper.pages.dev
+    path: /proxyip
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #7'
+  name: '🇺🇸 美国 | USA #9'
+  network: ws
+  port: 443
+  server: 161.117.181.127
+  servername: cat.ilovezhenjiu.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: affb10d4-3835-4b1f-b5a3-3481489911b6
+  ws-opts:
+    headers:
+      Host: cat.ilovezhenjiu.top
+    path: /cgciws
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #10'
+  network: ws
+  port: 443
+  server: yd.2.hhhhh.eu.org
+  servername: ssj-wkg.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0d6aa7c-0b34-4b68-9af8-1ea5e0b39bdc
+  ws-opts:
+    headers:
+      Host: ssj-wkg.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #13'
   network: ws
   port: 443
   server: 199.232.249.131
@@ -113,7 +199,7 @@ proxies:
 - client-fingerprint: random
   grpc-opts:
     grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #4'
+  name: '🇷🇺 俄罗斯 | RUS #2'
   network: grpc
   port: 443
   server: xsru1.ddnsfree.com
@@ -121,6 +207,13 @@ proxies:
   tls: true
   type: vless
   uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+- name: '🇺🇸 美国 | USA #2'
+  password: 883e3cc8-9613-4f2d-8c42-0dd3d429db55
+  port: 443
+  server: 104.17.10.171
+  skip-cert-verify: true
+  sni: ltf8.jueson.de5.net
+  type: trojan
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

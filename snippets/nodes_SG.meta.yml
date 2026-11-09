@@ -8,25 +8,23 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #10'
+  name: 🇸🇬[www.v2nodes.com] vless-SG-1...
   network: ws
   port: 8443
   server: sg01.cf.sh-cloudflare.sbs
   servername: sg01.cdn00.top
   tls: true
   type: vless
-  udp: true
   uuid: a8d9c86f-cddb-4fa5-96f7-f68eb48b3cb3
   ws-opts:
     headers:
       Host: sg01.cdn00.top
     path: /shanhai/sg01
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: chrome
   name: '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
   network: tcp
   port: 56984
-  server: 140.235.11.243
+  server: sg1.zestapp778.com
   servername: sg1.zestapp778.com
   tls: true
   type: vless
@@ -105,13 +103,71 @@ proxies:
   port: 8886
   server: 139.180.146.200
   type: trojan
-- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
-  name: '🇸🇬 新加坡 | SGP #1'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 443
-  server: 47.128.253.100
+- client-fingerprint: firefox
+  name: 🇸🇬 新加坡｜07｜BGP
+  network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: sg01.564895.xyz
   skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: sg01.564895.xyz
+    path: /asdasd
+- client-fingerprint: firefox
+  name: 🇸🇬 新加坡｜08｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: sg01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: sg01.564895.xyz
+    path: /asdasd
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇸🇬 SG1@ripaojiedian
+  network: ws
+  port: 443
+  server: 206.54.46.225
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇸🇬 SG2@ripaojiedian
+  network: ws
+  port: 443
+  server: 206.54.46.241
+  servername: speedtest.danfengno1.kdns.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st

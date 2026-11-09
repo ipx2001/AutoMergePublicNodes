@@ -22,6 +22,16 @@ proxies:
   tls: true
   type: vless
   uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #7'
+  network: ws
+  port: 80
+  server: 57.129.132.223
+  servername: '---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net'
+  tls: false
+  type: vless
+  uuid: dbb78c94-9f87-4d7d-b945-2000b60352fd
+  ws-opts:
+    path: /vless/
 - cipher: aes-256-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-1616...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=

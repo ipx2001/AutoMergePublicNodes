@@ -64,14 +64,13 @@ proxies:
   port: 19999
   server: 193.108.119.2
   type: ss
-- name: '🇩🇪 德国 | DEU #9'
+- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
   password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   port: 443
   server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   skip-cert-verify: true
   sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   type: trojan
-  udp: true
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
   password: happybirthdaydaniel
   port: 25267
@@ -80,26 +79,83 @@ proxies:
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 193.108.119.78
+  server: 193.108.119.15
+  sni: courses.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #5'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.193
   sni: resources.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- client-fingerprint: firefox
+  name: 🇩🇪 德国｜06｜BGP
+  network: ws
+  port: 2053
+  server: cf01.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: /asdasd
+- client-fingerprint: firefox
+  name: 🇩🇪 德国｜07｜BGP
+  network: ws
+  port: 2096
+  server: cf02.564895.xyz
+  servername: de01.564895.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  ws-opts:
+    headers:
+      Host: de01.564895.xyz
+    path: /asdasd
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
   port: 443
-  server: 193.108.119.29
-  sni: blog.iloverussia2026.com
-  type: trojan
+  server: n1.topingr.ir
+  servername: cdn2.zovip2.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed2e4dd1-d19f-48dd-b613-3f855b1d0765
+  ws-opts:
+    headers:
+      Host: cdn2.zovip2.ir
+    path: /api/v3/pulse
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #4'
+  network: ws
+  port: 2083
+  server: 172.67.69.86
+  servername: helloapps.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: helloapps.cc.cd
+    path: /
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 🇩🇪 德国 | DEU
+  name: 🇩🇪 德国 | DEU 9
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -107,75 +163,6 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 500
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #5'
-  network: ws
-  port: 443
-  server: cdn.kavosiprotocol.shop
-  servername: cdn.kavosiprotocol.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5bb1fda3-0b8a-41d5-a803-b48e180ad718
-  ws-opts:
-    headers:
-      Host: cdn.kavosiprotocol.shop
-    path: /@KVPROTOCOlVPN--@KVPROTOCOlVPN--@KVPROTOCOlVPN--@KVPROTOCOlVPN--ws/s_48738e13cc
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #6'
-  network: xhttp
-  port: 443
-  server: 167.82.76.27
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 847107d5-9969-4dac-9160-4d94f0a9b844
-  xhttp-opts:
-    host: dxcuf8cmyfdxovm.global.ssl.fastly.neT.
-    mode: auto
-    path: /
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #7'
-  network: xhttp
-  port: 443
-  server: 199.232.239.239
-  servername: community.fastly.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a55a4d25-76f0-4f0e-d395-3a92c0b34268
-  xhttp-opts:
-    host: cloudvpn2026-1.global.ssl.fastly.net
-    mode: packet-up
-    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 9
-  port: 54258
-  server: 109.70.74.172
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 969ea83d-cc6a-4035-93b3-089facfbf0d0
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪 德国 | DEU #8'
-  network: tcp
-  port: 54258
-  server: 109.70.74.172
-  tls: false
-  type: vmess
-  uuid: 969ea83d-cc6a-4035-93b3-089facfbf0d0
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
