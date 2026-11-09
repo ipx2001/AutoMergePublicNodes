@@ -16,7 +16,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: grpc-ru
-  name: 🇷🇺 俄罗斯 | RUS 2
+  name: 🇷🇺 俄罗斯 | RUS
   network: grpc
   port: 443
   server: xsru1.ddnsfree.com
@@ -37,3 +37,10 @@ proxies:
   port: 18443
   server: 46.17.47.58
   type: ss
+- name: 🇷🇺RU_1|2.1MB/s
+  password: None
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http

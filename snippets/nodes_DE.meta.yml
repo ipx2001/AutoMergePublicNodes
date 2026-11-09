@@ -1,13 +1,4 @@
 proxies:
-- name: 🇩🇪210420 | ⚡️Telegram = t.me/L...
-  obfs: salamander
-  obfs-password: 7922smqtd5qm70fu
-  password: 5ictxgawam84vgrp
-  port: 2098
-  server: arsalanvpn.trapxan.ir
-  sni: arsalanvpn.trapxan.ir
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -21,14 +12,6 @@ proxies:
   type: vless
   uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
 - name: '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
-  port: 465
-  server: 91.107.244.35
-  tls: false
-  type: vless
-  uuid: a356fa77-7199-417a-80dd-0c0925789161
-  ws-opts:
-    path: /
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
   network: ws
   port: 80
   server: 104.27.88.172
@@ -76,17 +59,22 @@ proxies:
   port: 25267
   server: de-bots4.h1cloud.net
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 193.108.119.15
-  sni: courses.iloverussia2026.com
+  server: 193.108.119.78
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #5'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.193
   sni: resources.iloverussia2026.com
+  type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #6'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.29
+  sni: blog.iloverussia2026.com
   type: trojan
 - client-fingerprint: firefox
   name: 🇩🇪 德国｜06｜BGP
@@ -123,46 +111,280 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #3'
+  encryption: none
+  name: 🇩🇪DE_1|1.0MB/s
   network: ws
   port: 443
-  server: n1.topingr.ir
-  servername: cdn2.zovip2.ir
+  server: n2.topingr.ir
+  servername: riga.zovip2.ir
   tls: true
   type: vless
   udp: true
-  uuid: ed2e4dd1-d19f-48dd-b613-3f855b1d0765
+  uuid: d5748db0-0031-4b9e-b43c-6c3986a9b5ed
   ws-opts:
     headers:
-      Host: cdn2.zovip2.ir
+      Host: riga.zovip2.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /api/v3/pulse
+  xudp: true
+- name: 🇩🇪DE_2|2.9MB/s
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|1.2MB/s
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|2.8MB/s
+  password: None
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|2.1MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|3.0MB/s
+  password: None
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|2.0MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_8|1.1MB/s
+  network: xhttp
+  port: 443
+  server: cf.090227.xyz
+  servername: 6f01ee42s71.kuback.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  xhttp-opts:
+    host: 6f01ee42s71.kuback.top
+    path: 5c2362f82436fa224a67e22abb0a5e42
+    x-padding-bytes: 100-1000
+    x-padding-header: X-Cache-Key
+    x-padding-key: bust
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: queryInHeader
+  xudp: true
+- name: 🇩🇪DE_9|3.2MB/s
+  password: 'null'
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇩🇪DE_10|3.5MB/s
+  password: 'null'
+  port: 443
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #1'
+  network: ws
+  port: 443
+  server: 178.128.199.136
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #2'
+  network: ws
+  port: 443
+  server: 138.124.124.157
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 8443
+  server: 142.111.77.179
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
 - client-fingerprint: chrome
   name: '🇩🇪 德国 | DEU #4'
   network: ws
-  port: 2083
-  server: 172.67.69.86
-  servername: helloapps.cc.cd
+  port: 443
+  server: 159.223.20.232
+  servername: fs.qicai99.com
   tls: true
   type: vless
   udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   ws-opts:
     headers:
-      Host: helloapps.cc.cd
+      Host: fs.qicai99.com
     path: /
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 9
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: live.yejssizh1kjrn.chunk-9828.m4s
+  name: 🇩🇪 德国 | DEU 5
+  network: grpc
+  port: 443
+  server: 31.76.5.79
+  servername: r2q24xzokp4.hat.onl
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #6'
+  network: ws
+  port: 8443
+  server: 138.124.119.229
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #7'
+  network: ws
+  port: 8443
+  server: 188.137.178.174
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
+- client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #8'
+  network: xhttp
+  port: 443
+  server: 193.160.208.240
+  servername: 193.160.208.240
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  xhttp-opts:
+    mode: auto
+    path: /assets/twru01/
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #9'
+  network: ws
+  port: 2053
+  server: 85.192.27.171
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #10'
+  network: ws
+  port: 443
+  server: 109.120.134.181
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #11'
+  network: ws
+  port: 8443
+  server: 138.124.49.108
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #12'
+  network: ws
+  port: 443
+  server: 172.67.74.177
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇩🇪 德国 | DEU #5'
+  network: grpc
+  port: 443
+  server: 31.76.5.79
+  servername: r2q24xzokp4.hat.onl
+  tls: true
+  type: vless
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
