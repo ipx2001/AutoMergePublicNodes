@@ -1,8 +1,22 @@
 proxies:
+- client-fingerprint: firefox
+  name: '🇺🇸 美国 | USA #7'
+  network: ws
+  port: 8443
+  server: 188.114.99.157
+  servername: moz.ar-marz.fun
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  ws-opts:
+    headers:
+      Host: moz.ar-marz.fun
+    path: /man
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
   network: ws
   port: 443
   server: n2.topingr.ir
@@ -18,7 +32,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: a9w9wmko0k2od14hv8v
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
   network: grpc
   port: 443
   server: 5.83.129.236
@@ -26,7 +40,7 @@ proxies:
   tls: true
   type: vless
   uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
   network: ws
   port: 80
   server: 104.27.88.172
@@ -63,23 +77,24 @@ proxies:
   server: 193.108.119.2
   type: ss
 - name: 🇩🇪[www.v2nodes.com] trojan-DE-...
-  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
-  port: 443
-  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  skip-cert-verify: true
-  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
-  type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
   password: happybirthdaydaniel
   port: 25267
   server: de-bots4.h1cloud.net
+  sni: t.me/fuckthewall
   type: trojan
-- name: 🏳[www.v2nodes.com] trojan-
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 193.108.119.78
+  server: 193.108.119.15
+  sni: courses.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #5'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  sni: learn.iloverussia2026.com
+  type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.29
@@ -117,6 +132,94 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: /asdasd
+- name: 🇩🇪DE_1|3.3MB/s
+  password: None
+  port: 443
+  server: 152.233.20.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_2|3.4MB/s
+  password: 'null'
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇩🇪DE_3|1.5MB/s
+  password: None
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|2.4MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: DE_speednode_0004
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0005
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0006
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇩🇪DE_8|1.2MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|3.8MB/s
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_10|1.8MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_11|3.2MB/s
+  network: xhttp
+  port: 443
+  server: neeee.kpt99.uk
+  servername: neeee.kpt99.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38de3363-7945-402e-9a9b-6f2f9015a44e
+  xhttp-opts:
+    host: neeee.kpt99.uk
+    mode: stream-one
+    path: /static/js/chunk
+  xudp: true
 - client-fingerprint: random
   name: '🇩🇪 德国 | DEU #1'
   network: ws
@@ -300,10 +403,3 @@ proxies:
   tls: true
   type: vless
   uuid: 6538f5c3-5b01-4956-a8e6-47688c01c42e
-- name: DE_speednode_0004
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

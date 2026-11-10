@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  name: '🇭🇰[www.v2nodes.com] vless-HK-1... #2'
+  network: ws
+  port: 443
+  server: 68.64.182.205
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -53,10 +66,17 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- name: 🇭🇰HK_1|1.1MB/s
+- name: 🇭🇰HK_1|4.7MB/s
   password: None
   port: 31343
   server: 120.232.204.58
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇭🇰HK_2|4.7MB/s
+  password: '!!str 111'
+  port: 11408
+  server: 47.76.186.28
+  skip-cert-verify: true
+  type: socks5
+  username: '111'
