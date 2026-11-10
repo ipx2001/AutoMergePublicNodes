@@ -1,4 +1,16 @@
 proxies:
+- name: '🇰🇷[www.v2nodes.com] vless-KR-1... #6'
+  network: ws
+  port: 8443
+  server: 64.110.79.66
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /fp=chrome
 - name: '🇰🇷[www.v2nodes.com] vless-KR-1... #1'
   network: ws
   port: 25555
@@ -9,7 +21,7 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: '🇰🇷[www.v2nodes.com] vless-KR-3... #2'
+  name: '🇰🇷[www.v2nodes.com] vless-KR-3... #3'
   network: ws
   port: 8443
   server: 64.110.79.66
@@ -21,11 +33,22 @@ proxies:
     headers:
       Host: fs.qicai99.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷[www.v2nodes.com] ss-KR-1620...
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 3.36.100.143
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷[www.v2nodes.com] ss-KR-1185...
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 141.164.45.187
+  type: ss
 - name: 🇰🇷[www.v2nodes.com] trojan-KR-...
   password: 5t6i121em5lkmsmk
   port: 48851
-  server: kr002.zestapp778.com
-  sni: kr002.zestapp778.com
+  server: 158.247.255.150
   type: trojan
 - alpn:
   - http/1.1
@@ -68,7 +91,7 @@ proxies:
   name: '🇰🇷 韩国 | KOR #1'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 43.203.246.67
+  server: 3.36.58.98
   skip-cert-verify: true
   sni: www.bing.com
   tls: false

@@ -1,15 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #1'
-  network: ws
-  port: 50818
-  server: 34.39.80.57
-  servername: yingguo.rymaker.cn
-  tls: true
-  type: vless
-  uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
-  ws-opts:
-    path: /GunService
 - alpn:
   - h2
   - http/1.1
@@ -70,62 +59,17 @@ proxies:
   port: 443
   server: 141.98.101.181
   type: ss
-- name: 🇬🇧GB_1|1020KB/s
-  password: None
-  port: 9443
-  server: 84.17.50.129
+- name: 🇬🇧[www.v2nodes.com] trojan-GB-...
+  password: 5t6i121em5lkmsmk
+  port: 29813
+  server: en001.zestapp778.com
+  sni: en001.zestapp778.com
+  type: trojan
+- name: 🇬🇧 英国 | GBR
+  password: 66dff097-fa47-4ae1-8ed8-5e147e564f1c
+  port: 30000
+  server: uk1.fastfly.qzz.io
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|1.9MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|1.2MB/s
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|1.9MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|2.1MB/s
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_6|1.6MB/s
-  port: 9443
-  server: 84.233.178.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: '🇬🇧 英国 | GBR #1'
-  network: xhttp
-  port: 443
-  server: 151.101.36.235
-  servername: accounts.fastly.com
-  tls: true
-  type: vless
+  sni: uk1.fastfly.qzz.io
+  type: anytls
   udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  xhttp-opts:
-    host: ovd13.global.ssl.fastly.net
-    mode: auto
-    no-grpc-header: true
-    path: /
-    x-padding-bytes: 100-1000
